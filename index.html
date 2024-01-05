@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>change color</title>
+</head>
+<style>
+
+</style>
+
+<body>
+  <!-- <div id="ch">
+    <p id="demo">hello world</p>
+  </div>
+  <input name="nguyen van tai" id="Link">link</input>
+  <button onclick="change()">click</button> -->
+
+  <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis dolores perspiciatis, quod
+    nemo debitis
+    eos at, dolorum possimus rerum alias! Tempore expedita earum exercitationem ad possimus iusto asperiores minus.</p>
+  <button onclick="Red()">red me</button>
+  <button onclick="Blue()">blue me</button>
+  <button onclick="orange()">orange me</button>
+  <button onclick="changeText()">change me</button>
+  <button onclick="Reset()">Reset me</button>
+</body>
+<script>
+  let Red = () => {
+    let a = document.getElementById('demo').style.color = 'red';
+
+  }
+  let Blue = () => {
+    let a = document.getElementById('demo').style.color = 'blue';
+
+  }
+  let orange = () => {
+    let a = document.getElementById('demo').style.color = 'orange';
+
+  }
+  let changeText = () => {
+    let a = document.getElementById('demo').innerHTML = 'hello world';
+
+  }
+  let Reset = () => {
+    let a = document.getElementById('demo').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis dolores perspiciatis, quod nemo debitiseos at, dolorum possimus rerum alias! Tempore expedita earum exercitationem ad possimus iusto asperiores minus.';
+    document.getElementById('demo').style.color = 'black'
+  }
+  //let a = document.getElementById('Link').getAttribute('name')
+  //console.log(a)
+  // let b = document.getElementById('Link').setAttribute('name', 'nguyen van tttt')
+  // let a = document.getElementById('Link').getAttribute('name')
+  // console.log(a)
+</script>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change t-shirt</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <ul id="UL">
+        <li><img src="./img/ao-thun-size-lxlxxl-makita-2.jpg" id="m1" onclick="get('m1')" alt=""></li>
+        <li><img src="./img/ao-thun-size-lxlxxl-makita-3.jpg" id="m2" onclick="get('m2')" alt=""></li>
+        <li><img src="./img/ao-thun-size-lxlxxl-makita.jpg" id="m3" onclick="get('m3')" alt=""></li>
+
+
+    </ul>
+    <div id="main-image">
+        <img id="main" src="./img/ao-thun-size-lxlxxl-makita.jpg" alt="">
+    </div>
+</body>
+<script>
+
+    function get(id) {
+        let a = document.getElementById(id).getAttribute('src')
+
+        document.getElementById('main').setAttribute('src', a)
+    }
+</script>
+
+</html>

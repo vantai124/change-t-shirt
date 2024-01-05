@@ -1,0 +1,18 @@
+ul li {
+  list-style: none;
+}
+ul li img {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  cursor: pointer;
+}
+ul,
+#main-image {
+  float: left;
+}
+#main-image {
+  border: 1px solid black;
+  margin-left: 50px;
+}

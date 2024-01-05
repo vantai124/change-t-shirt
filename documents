@@ -1,0 +1,40 @@
+1 dom select name id class attribute
+2 dom html change attribute content text
+3 dom event cung cap cac event de tac dong vao doi tuong html
+4 dom style change style 5 dom listener lang nghe cac su kien hanh dong tac dong len cac the html
+do
+1.dom elements -document.getElementsByTagName('p') lay ra cac the p
+
+document.getElementById('')
+document.getElementsByClassName('')
+document.getElementsByTagName('')
+document.querySelector('')
+document.querySelectorAll('')
+
+.style.color =
+.style.background =
+
+2 dom html
+1 innerHTML
+2 innerText
+3 getAttribute setAttribute()
+
+<!-- <body>
+    <p>this is tag p one</p>
+    <p>this is tag p two</p>
+    <p>this is tag p there</p>
+    <p>this is tag p four</p>
+    <p>this is tag p four</p>
+    <p>this is tag p four</p>
+  </body>
+  <script>
+    let tagObject = document.getElementsByTagName("p");
+
+    for (i = 0; i < tagObject.length; i++) {
+      if (i % 2 === 0) {
+        tagObject[i].style.backgroundColor = "blue";
+      } else {
+        tagObject[i].style.backgroundColor = "red";
+      }
+    }
+  </script> -->
